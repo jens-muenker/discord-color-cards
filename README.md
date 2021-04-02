@@ -60,24 +60,24 @@ The following commands are only for the following channels. (cc stands for the g
 
 **Join Channel:**
 ```
-!cc join                - Join the game
-!cc start [card-count]  - Start the game (card-count defines the number of cards each player gets at the start of the game. If this is not specified, the default number from the settings is taken.)
+!cc join                                - Join the game
+!cc start [card-count]                  - Start the game (card-count defines the number of cards each player gets at the start of the game. If this is not specified, the default number from the settings is taken.)
 ```
 
 **Private Channel (Player-Channel)**:
 ```
-!card or !c             - Lay a card
-!getnewcard or !gnc     - Pick up a card
-!sitout or !so          - Voluntarily sit out
-!take or !t             - Take the cards voluntarily
-!leave                  - Leave the game
+!card [card-number] or !c [card-number] - Lay a card (card-number = The number in front of the respective card.)
+!getnewcard or !gnc                     - Pick up a card
+!sitout or !so                          - Voluntarily sit out
+!take or !t                             - Take the cards voluntarily
+!leave                                  - Leave the game
 ```
 
 **Admin Channel:**
 ```
-!cc shutdown            - Shutdown the bot
-!cc kick @playername    - Kick a player out of the game
-!cc stop                - Stop the current game
+!cc shutdown                            - Shutdown the bot
+!cc kick @playername                    - Kick a player out of the game
+!cc stop                                - Stop the current game
 ```
 
 ## Settings-file
