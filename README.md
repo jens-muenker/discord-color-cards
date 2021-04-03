@@ -47,6 +47,7 @@ The first player to run out of cards wins the game.
 * discord 1.5.X
 * gtts
 * termcolor
+* colorama
 
 
 **Everything available?**
