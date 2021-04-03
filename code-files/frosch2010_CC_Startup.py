@@ -1,6 +1,7 @@
 import os
 import sys
 from termcolor import colored, cprint
+import colorama
 
 
 import frosch2010_Console_Utils as fCU
@@ -11,6 +12,8 @@ import frosch2010_CC_language_manager as fCLM
 
 def initialize_bot(ccVars, ccLanguage, ccSettings):
 
+    colorama.init()
+    
     cprint(colored("\n####   ####   #      ####   ###       ####    ##    ###    ###    ####", "red"))
     cprint(colored("#      #  #   #      #  #   #  #      #      #  #   #  #   #  #   ##", "yellow"))
     cprint(colored("#      #  #   #      #  #   ###       #      ####   ###    #  #     ##", "green"))
